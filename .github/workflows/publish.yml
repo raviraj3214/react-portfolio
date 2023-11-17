@@ -1,4 +1,4 @@
-name: portfolio
+name: publish
 
 on:
   push:
