@@ -25,19 +25,19 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: Copy Build Files
-      run: |
-        mkdir deploy
-        cp -r build/* deploy/
+    # - name: Copy Build Files
+    #   run: |
+    #     mkdir deploy
+    #     cp -r build/* deploy/
 
-    - name: Navigate to Build Directory
-      run: cd deploy
+    # - name: Navigate to Build Directory
+    #   run: cd deploy
     
-    - name: Commit and Push Changes
-      run: |
-        git config --global user.email "raviraj32140@gmail.com"
-        git config --global user.name "raviraj3214"
-        git checkout -b deploy-branch
-        git add -A
-        git commit -m "Upload build files"
-        git push origin deploy-branch
+    # - name: Commit and Push Changes
+    #   run: |
+    #     git config --global user.email "raviraj32140@gmail.com"
+    #     git config --global user.name "raviraj3214"
+    #     git checkout -b deploy-branch
+    #     git add -A
+    #     git commit -m "Upload build files"
+    #     git push origin deploy-branch
