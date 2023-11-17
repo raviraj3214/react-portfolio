@@ -12,10 +12,7 @@
     display: flex;
 }
 
-.blogPage--header h1 {
-    font-size: 4rem;
-    font-family: var(--primaryFont);
-}
+
 
 .blogPage--container {
     padding: 3rem 2rem;
